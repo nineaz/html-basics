@@ -1,13 +1,49 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(123, 172, 214, 0.9);
+  font-family: "Montserrat", sans-serif;
+}
+#container {
+width: 500px;
+margin: 0 auto;
+}
+
+h1, h2, h3 {
+font-family: "Montserrat", sans-serif;
+color: #0080FF;
+letter-spacing: 2px;
+}
+
+h1 {
+  color:rgb(187 , 80, 78);
+
+}
+h2{
+ color: rgb(94, 129, 156);
+}
+ul {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(187 , 80, 78);
+  transition: color 0.3s ease;
+}
+ul li a:hover {
+color: rgb(94, 129, 156);
+text-decoration: none;
+}
 table
 {
     border-collapse: collapse;
 }
 
-td
-{
-    border: 1px solid black;
-}
-img{
+.firstimage img{
   width: 360px;
+  height: 300px;
+}
+table td img {
+  width: 400px;
   height: 300px;
 }
