@@ -8,7 +8,9 @@ body{
 width: 500px;
 margin: 0 auto;
 }
-
+.container .card p {
+    color:rgb(73, 74, 76);
+}
 h1, h2, h3 {
 font-family: "Montserrat", sans-serif;
 color: #0080FF;
@@ -27,7 +29,7 @@ ul {
 }
 ul li a {
   text-decoration: none;
-  color: rgb(187 , 80, 78);
+
   transition: color 0.3s ease;
 }
 ul li a:hover {
@@ -38,7 +40,9 @@ table
 {
     border-collapse: collapse;
 }
-
+td{
+    color:rgb(73, 74, 76);
+}
 .firstimage img{
   width: 360px;
   height: 300px;
@@ -46,4 +50,12 @@ table
 table td img {
   width: 400px;
   height: 300px;
+}
+.card {
+  border-radius:2px;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: white;
+}
+footer p {
+    color:rgb(73, 74, 76);
 }
